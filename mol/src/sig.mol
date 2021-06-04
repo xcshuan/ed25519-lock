@@ -1,0 +1,9 @@
+import blockchain;
+
+table Signature{
+    mes:Bytes,
+    sig:Bytes,
+    pubkey:Bytes,
+}
+
+vector SignatureVec <Signature>;
